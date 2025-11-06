@@ -1,0 +1,55 @@
+.heading {
+	text-align: center;
+	/*background-color: blue ;*/
+	color: blue;
+} 	
+
+.text {
+   color: gray;
+   text-align: center;
+   font-size: 20px;
+}
+
+.google-font-text {
+	font-family: "Momo Signature", cursive;
+  font-weight: 400;
+  font-style: normal; 
+}			
+
+.list {          
+		list-style: none;
+		display: flex;
+		gap: 10px;
+}
+
+.card {
+	width: 20%;
+	height: auto;
+	border: 1px;
+	border-color: #000;
+	border-style: solid;
+	border-radius: 10px;
+	box-shadow: 1px;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	text-align: center;
+}
+
+.btn {
+ 	height:50%;
+	width: 70%;
+	border: none;
+	outline: none;
+	border-radius: 10px;
+	background-color: blue;
+	cursor: pointer;
+	color: white;
+}
+
+.btn:hover {
+	background-color: green;
+}
